@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  height: 4rem;
+  background-color: black;
+  padding: 0.8em 1em;
+  color: white;
+}
+
+.logo,
+.logoName,
+.inputBox,
+.searchBtn {
+  margin-right: 0.2rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.inputBox {
+  flex-basis: 100%;
+  font-size: 1.2rem;
+  outline: none;
+}
+
+.searchBtn {
+  background-color: darkgray;
+  cursor: pointer;
+  outline: none;
+}
+
+.buttonImg {
+  height: 100%;
+  padding: 0.5em 0.2em;
+}
